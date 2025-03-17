@@ -63,7 +63,7 @@ D --> B
 
 The diagram above shows a simple flowchart.
 
-Running `mermaid-md-to-pdf README.md` will create `README.pdf` with the rendered Mermaid diagram.
+Running `mermaid-md-to-pdf README.md` will create `README.pdf` with the rendered Mermaid diagram. See [README.pdf](README.pdf) for the output.
 
 ## How It Works
 

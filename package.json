@@ -15,7 +15,7 @@
     "pdf",
     "cli"
   ],
-  "author": "Daniel \"Klokie\" Grossfeld",
+  "author": "Daniel Grossfeld <github@klokie.com> (https://github.com/klokie)",
   "license": "MIT",
   "dependencies": {
     "@mermaid-js/mermaid-cli": "^10.0.0",
@@ -25,5 +25,13 @@
     "puppeteer": "^21.0.0",
     "tmp": "^0.2.1"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klokie/mermaid-md-to-pdf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/klokie/mermaid-md-to-pdf/issues"
+  },
+  "homepage": "https://github.com/klokie/mermaid-md-to-pdf"
 }
