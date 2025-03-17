@@ -1,10 +1,10 @@
 {
   "name": "mermaid-md-to-pdf",
   "version": "1.0.0",
-  "description": "CLI tool to convert markdown files with mermaid diagrams to PDF",
-  "main": "mermaid-md-to-pdf.js",
+  "description": "Convert Markdown files with Mermaid diagrams to PDF",
+  "main": "index.js",
   "bin": {
-    "mermaid-md-to-pdf": "./mermaid-md-to-pdf.js"
+    "mermaid-md-to-pdf": "./cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,13 +15,15 @@
     "pdf",
     "cli"
   ],
-  "author": "",
+  "author": "Daniel \"Klokie\" Grossfeld",
   "license": "MIT",
   "dependencies": {
     "@mermaid-js/mermaid-cli": "^10.0.0",
     "cheerio": "^1.0.0-rc.12",
-    "commander": "^10.0.0",
-    "markdown-pdf": "^11.0.0",
+    "commander": "^9.0.0",
+    "marked": "^4.0.0",
+    "puppeteer": "^21.0.0",
     "tmp": "^0.2.1"
-  }
+  },
+  "type": "module"
 }

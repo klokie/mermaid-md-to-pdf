@@ -63,14 +63,14 @@ D --> B
 
 The diagram above shows a simple flowchart.
 
-This will create `example.pdf` with the rendered Mermaid diagram.
+Running `mermaid-md-to-pdf README.md` will create `README.pdf` with the rendered Mermaid diagram.
 
 ## How It Works
 
 1. Parses the Markdown file to find Mermaid diagram code blocks
 2. Renders each Mermaid diagram to SVG using @mermaid-js/mermaid-cli
-3. Replaces the Mermaid code blocks with the rendered SVGs
-4. Converts the processed Markdown to PDF using markdown-pdf
+3. Processes the Markdown content and embeds the SVG diagrams
+4. Converts the processed content to PDF using Puppeteer
 
 ## Customization
 
